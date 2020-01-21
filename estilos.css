@@ -1,0 +1,28 @@
+body {
+    font-family: sans-serif;
+  }
+  
+  h1, h2 {
+    text-align: left
+  }
+  
+  p {
+    text-align: justify;
+    line-height: 150%;
+  }
+
+  @media screen and (max-width: 479px) {
+    body {
+      background-color: hsl(0, 50%, 50%);
+      color: hsl(65, 100%, 50%);
+    }
+  }
+
+  @media screen and (min-width: 1024px) {
+    body {
+      margin-left: 30%;
+      margin-right: 30%;
+      background-color: hsl(270, 50%, 80%);
+      color: hsl(0, 75%, 32%);
+    }
+  }
